@@ -31,7 +31,10 @@ public class Pessoa implements Serializable {
 	private String nome;
 	private String telefone;
 	private String email;
+	
+	
 	private Endereco endereco;
+	
 	private Collection<DiariaAvulsa> diariasAvulsas;
 	private Collection<Reserva> reservas;
 	
