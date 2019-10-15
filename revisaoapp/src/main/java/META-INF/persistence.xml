@@ -2,5 +2,13 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
 	<persistence-unit name="revisaoapp">
 		<class>br.edu.ifrs.canoas.revisaoapp.pojo.Endereco</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.Pessoa</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.PessoaJuridica</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.PessoaFisica</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.DiariaAvulsa</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.Diaria</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.DiariaReservada</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.Reserva</class>
+		<class>br.edu.ifrs.canoas.revisaoapp.pojo.Quarto</class>
 	</persistence-unit>
 </persistence>
